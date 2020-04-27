@@ -8,3 +8,7 @@ var fulltext = var1 + '' + var2;
 document.write(fulltext);
 
 document.write (100*125)
+
+function displayDate() {
+    document.getElementById("test").innerHTML = Date();
+}
